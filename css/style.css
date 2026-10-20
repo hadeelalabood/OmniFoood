@@ -416,7 +416,7 @@ strong {
   gap: 1.6rem;
 }
 .margin-bottom-md {
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem !important;
 }
 .all-recipes {
   text-align: center;
@@ -564,4 +564,9 @@ strong {
 .feature-text {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
 }
