@@ -34,13 +34,15 @@ const sectionHeroEl = document.querySelector(".section-hero");
 const observer = new IntersectionObserver(
   function (ents) {
     const ent = ents[0];
+    console.log(ents);
     if (ent.isIntersecting === false) {
-      document.querySelector(".header").classList.add("sticky");
-    }
+      document.body.classList.add("sticky");
+    } else document.body.classList.remove("sticky");
   },
   {
     root: null,
     threshold: 0,
+    rootMargin: "-80px",
   },
 );
-observer.observe();
+observer.observe(sectionHeroEl);

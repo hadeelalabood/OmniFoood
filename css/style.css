@@ -757,7 +757,7 @@ strong {
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
-.sticky {
+.sticky .header {
   position: fixed;
   top: 0;
   bottom: 0;
