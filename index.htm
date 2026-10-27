@@ -13,10 +13,12 @@
       href="https://fonts.googleapis.com/css2?family=Rubic:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <script defer src="js/script.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill"0.4.4/dist/smoothscroll.min.js"></script>
     <title>OmniFood</title>
   </head>
   <body>
-    <header class="header nav-open">
+    <header class="header">
       <a href="#">
         <img class="logo" src="img/omnifood-logo.png" alt="OmniFood" />
       </a>
@@ -54,10 +56,12 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#try-it-for-free" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#how-it-works" class="btn btn--outline"
+              >Learn more &darr;</a
+            >
             <div class="delivered-meals">
               <div class="delivered-imgs">
                 <img src="img/customers/customer-1.jpg" alt="Customer photo" />
@@ -117,6 +121,43 @@
       </section>
       <!------------------------------------------------------------------------------------------------------------------------------------------->
       <!--MY SECTION-->
+      <!--MY SECTION2-->
+      <!------------------------------------------------------------------------------------------------------------------------------------------->
+      <section class="my-section">
+        <div class="container center-text margin-bottom-md">
+          <span class="subheading">Perfect Meal</span>
+          <h2 class="heading-secondary">Build Your Perfect Meal</h2>
+          <p>Fresh ingredients, delicious flavors, and meals
+        made just for you.</p>
+        </div>
+        <div
+          class="container grid grid--3-cols perfect-meal" >
+          <div class="perfect-meal-card">
+            <img src="img/gallery/gallery-1.jpg" alt="g1">
+            <h3>Personalized Meals</h3>
+            <span>Meals tailored to your tastes and nutritional needs.</span>
+          </div>
+          <div class="perfect-mealcard">
+            
+            <img src="img/gallery/gallery-2.jpg" alt="g2">
+            <h3>Save Your Time</h3>
+            <span>Spend less time planning and preparing meals.</span>
+          </div>
+          <div class="perfect-meal-card">
+            <img src="img/gallery/gallery-3.jpg" alt="g3">
+            
+            <h3>Fresh Ingredients</h3>
+            <span>Enjoy delicious meals made with quality ingredients.</span>
+          </div>
+          <!-- <div class="why-card">
+            <ion-icon name="car-outline" class="why-icon"></ion-icon>
+            <h3>Flexible Delivery</h3>
+            <span>Get your meals delivered when it suits you.</span>
+          </div> -->
+        </div>
+      </section>
+      <!------------------------------------------------------------------------------------------------------------------------------------------->
+      <!--MY SECTION2-->
       <section class="section-featured">
         <div class="container">
           <h2 class="heading-featured-in">As featured in</h2>
@@ -610,7 +651,8 @@
             </li>
           </ul>
           <p class="copyright">
-            Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
+            Copyright &copy; <span class="year">2027</span> by Omnifood, Inc.
+            All rights reserved.
           </p>
         </div>
         <div class="adress-col">
